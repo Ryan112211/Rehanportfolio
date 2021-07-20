@@ -10,6 +10,7 @@ import Specialization from './components/Specialization';
 import Testimonials from './components/Testimonials';
 import AOS from "aos"
 import "aos/dist/aos.css"
+import vid from "./components/video/myvid.mp4"
 function App() {
   useEffect(()=>{
     AOS.init({
@@ -17,15 +18,33 @@ function App() {
     })
   },[])
   return (
+    
     <div className="App">
+      <div>
+ <video autoPlay loop muted style={{
+   position:"absolute",
+   width:"100%",
+   left:"50%",
+   height:"100%",
+   objectFit:"cover",
+   transform:"translate(-50%,-50%)",
+   zIndex:"-1",
+   top:"20%"
+
+
+ }}>
+   <source src={vid} type="video/mp4"></source>
+ </video>
+      
       <Hero></Hero>
       <Specialization></Specialization>
       <Expertise></Expertise>
       <LatestProjects></LatestProjects>
       <Qualification></Qualification>
-      <Testimonials></Testimonials>
+      
       <Footer></Footer>
 
+    </div>
     </div>
   );
 }

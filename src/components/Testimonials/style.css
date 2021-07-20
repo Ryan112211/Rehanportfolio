@@ -19,9 +19,9 @@
     object-fit: contain;
 }
 .mycard{
-    height:"300px";
-    width:"500px";
-    padding:"30px";
+    height:300px;
+    width:500px;
+    padding:30px;
 }
 .contactcard{
     width:500px;

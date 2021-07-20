@@ -23,52 +23,48 @@ const Specialization = (props) => {
     {
       skillName: "JavaScript",
       desc: "Hands on experience in JavaScript",
-      value: 90,
+      value: 50,
       textColor: colors.primaryColor,
       pathColor: "#f9f871",
     },
     {
       skillName: "ReactJS",
       desc: "Hands on experience in ReactJS",
-      value: 90,
+      value: 60,
       textColor: colors.primaryColor,
       pathColor: "#00af91",
     },
-    {
-      skillName: "jQuery",
-      desc: "Hands on experience in Html/Css",
-      value: 60,
-      textColor: colors.primaryColor,
-      pathColor: "#845ec2",
-    },
+   
     {
       skillName: "Bootstrap",
-      desc: "Hands on experience in Html/Css",
+      desc: "Hands on experience in utitlizing bootstrap for responsive websites",
       value: 70,
       textColor: colors.primaryColor,
       pathColor: "#845ec2",
     },
     {
       skillName: "NodeJS",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
+      desc: "Hands on experience in NodeJS",
+      value: 60,
       textColor: colors.primaryColor,
       pathColor: "#54e346",
     },
     {
-      skillName: "PHP",
-      desc: "Hands on experience in Html/Css",
-      value: 80,
+      skillName: "Flutter Front end Development",
+      desc: "Hands on experience in Flutter Front end",
+      value: 60,
       textColor: colors.primaryColor,
-      pathColor: "#111d5e",
+      pathColor: "#54e346",
     },
     {
-      skillName: "Mysql",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
+      skillName: "React Native",
+      desc: "Hands on experience in React-Native",
+      value: 60,
       textColor: colors.primaryColor,
-      pathColor: "#f88f01",
+      pathColor: "#54e346",
     },
+   
+  
   ];
   return (
     <div className="container">

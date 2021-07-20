@@ -6,11 +6,14 @@
 body{
   background: url(./assets/images/bg-f2f2f2.jpg);
   background-repeat: repeat;
+  
 }
+
 .primaryColor{
   color: #1bc79a;
 
 }
+
 .textColor{
   color:#323232
 }

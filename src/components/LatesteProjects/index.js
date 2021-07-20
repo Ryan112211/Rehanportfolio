@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../UI/Card'
 import MediumHeading from '../UI/MediumHeading'
 import SmallHeading from '../UI/SmallHeading'
-import latestproject from "../../assets/projects/project-001.PNG"
+import latestproject from "../../assets/images/covid.PNG"
 import "./style.css"
 import Button from '../UI/Button'
 /**

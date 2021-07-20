@@ -12,9 +12,9 @@ const Hero = (props) => {
     <div className="container" style={{marginTop:"70px"}}>
         <div className="flexRow flexCol justify-sb align-center">
         <div data-aos="fade-right">
-        <p className="uppercase bold-500 textColor ls-1 mtb-10"><span className="primaryColor">Hello,</span>I am Rehan Khan</p>
-        <h1 className="textColor ls-1 mtb-10">Software Developer</h1>
-        <p className="font-12 grey mtb-10">FullStack Developer using Mern Stack</p>
+        <p style={{color:"white"}}className="uppercase bold-500  ls-1 mtb-10"><span className="primaryColor">Hello,</span>I am Rehan Khan</p>
+        <h1 style={{color:"white"}}className="textColor ls-1 mtb-10">Front End Web Developer</h1>
+        <p style={{color:"white"}}className="font-12  mtb-10">FullStack Developer using Mern Stack/Firebase</p>
         <div className="flexRow " style={{margin:"30px 0"}}>
         <div>
         <Button label={"Hire me"}></Button>
@@ -30,7 +30,7 @@ const Hero = (props) => {
         </div>
         <div data-aos="fade-left">
         <div className="merightimagecontainer">
-            <img src={me}alt=""></img>
+           
         </div>
         </div>
 

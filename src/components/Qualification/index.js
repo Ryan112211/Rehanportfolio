@@ -44,31 +44,25 @@ const Qualification = (props) => {
           <Tile
             title="Bahria University"
             mediumtitle="Computer Science"
-            desc="LoremIpsum"
+            desc="Completed Bachelor in 2021"
           >
 
           </Tile>
           <Tile
-            title="Bahria University"
-            mediumtitle="Computer Science"
-            desc="LoremIpsum"
+            title="Punjab College"
+            mediumtitle="FSC ENGINEERING"
+            desc="Completed FSC from Punjab College Blue Area Islamabad"
           >
               
           </Tile>
           <Tile
-            title="Bahria University"
-            mediumtitle="Computer Science"
-            desc="LoremIpsum"
+            title="Radiant Secondary School Rawalpindi"
+            mediumtitle="Matriculation"
+            desc="Completed Matriculation from Radiant School "
           >
               
           </Tile>
-          <Tile
-            title="Bahria University"
-            mediumtitle="Computer Science"
-            desc="LoremIpsum"
-          >
-              
-          </Tile>
+          
         </div>
       </div>
     </div>
